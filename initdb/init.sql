@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS gps_points (
+    courier_id VARCHAR(255) PRIMARY KEY,
+    lat DOUBLE PRECISION NOT NULL,
+    lon DOUBLE PRECISION NOT NULL,
+    timestamp BIGINT NOT NULL
+);

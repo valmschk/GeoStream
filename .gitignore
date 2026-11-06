@@ -1,0 +1,19 @@
+
+# sbt
+target/
+project/target/
+project/project/
+.bsp/
+
+# IDE
+.idea/
+.vscode/
+.metals/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+"@ | Out-File -Encoding utf8 .gitignore
